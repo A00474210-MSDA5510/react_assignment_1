@@ -17,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <AboutMe />,
   },
+  {
+    path: "/MyTown",
+    element: <HomeTown />,
+  },
 ]);
 
 
@@ -28,7 +32,6 @@ root.render(
     <nav>
       <ul>
         <li><a href='/'>AboutMe</a></li>
-        <li><a href='/MyTown'>My Hometown</a></li>
       </ul>
     </nav>
        <RouterProvider router={router} />
