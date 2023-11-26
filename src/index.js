@@ -32,7 +32,7 @@ root.render(
     <nav>
       <ul>
         <li><a href='/'>AboutMe</a></li>
-        <li><a href='/MyTown'>My Hometown</a></li>
+        
       </ul>
     </nav>
        <RouterProvider router={router} />
